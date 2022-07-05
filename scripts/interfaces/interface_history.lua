@@ -14,6 +14,8 @@
     function history_Init()
 
         ui_history = love.graphics.newImage("assets/interfaces/03_histoire.png")
+
+        interface_state = "stat_fight"
         
     end
 

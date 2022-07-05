@@ -17,6 +17,7 @@
     function love.load(...) --Fonction d'initialisation des éléments
 
         choix_UI = 1
+        
 
         interface_init()
 

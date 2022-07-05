@@ -77,6 +77,13 @@
         
         end
 
+        if love.keyboard.isDown("w") then
+
+            interface_choice = 5
+            delay_s(0.2)
+
+        end
+
         return interface_choice
     end
 

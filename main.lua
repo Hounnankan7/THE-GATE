@@ -29,6 +29,7 @@
         cursor_character.animation:update(dt)
         cursor_Movement_UI_Principal()
         cursor_Movement_CharacterSelection(choix_UI)
+        characterSelection_UI_Update()
         choix_UI = manipulationInterface(choix_UI,dt)
         
         

@@ -45,6 +45,30 @@
 
             a = action_UI_CharacterSelection(interface_choice,dt)
 
+        elseif interface_choice == 5 then
+
+            --
+
+        elseif interface_choice == 6 then
+
+            --
+
+        elseif interface_choice == 7 then
+
+            --
+
+        elseif interface_choice == 8 then
+
+            --
+
+        elseif interface_choice == 9 then
+
+            --
+
+        elseif interface_choice == 10 then
+
+            --
+
         elseif interface_choice == 11 then
 
             a = action_UI_Credit(interface_choice,dt)

@@ -1,5 +1,6 @@
 # THE_GATE
- Game prototype of a action/turn-based game i would like to develop with tmy own assets. It is developped in Lua and LOVE 2D framework for the script and the interface has been made using the software Paint from Windows OS.
+
+ Prototype d'un jeu du style Action/Turn-based que j'aimerais développer avect mes propres ressources graphiques. Il est réalisé grâce au langage Lua et la framework Love2D pour le codage et le logiciel Paint de Windows pour les interfaces.
  
  # Systèmes Implémentés
 
@@ -8,8 +9,10 @@
  + Une interface histoire (placant le contexte du jeu) :
  <img src="readme_assets/page_2.PNG"  width="500" height="500">
  + Un système de classes avec de multiple stats à suivre :
- <img src="readme_assets/page_3_gif.mp4"  width="500" height="500">
- ![](https://github.com/Hounnankan7/THE-GATE/blob/main/readme_assets/page_3_gif.mp4)
+ + <p></p>
+   <p>On utilise les touche directionelle du clavier pour naviguer entre les différente classe, la souris pour naviguer entre les différents type de stats & W du clavier  pour valider le choix sur la classe selectionner par le selecteur. </p>
+ 
+ ![](https://github.com/Hounnankan7/THE-GATE/blob/main/readme_assets/page_3_gif.gif)
  
  # Systèmes à Implémentés
  

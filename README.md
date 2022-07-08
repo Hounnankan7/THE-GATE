@@ -8,6 +8,7 @@
  + Une interface histoire (placant le contexte du jeu) :
  <img src="readme_assets/page_2.PNG"  width="500" height="500">
  + Un système de classes avec de multiple stats à suivre :
+ 
  ! [](https://github.com/Hounnankan7/THE-GATE/blob/main/readme_assets/page_3_gif.gif)
  
  # Systèmes à Implémentés

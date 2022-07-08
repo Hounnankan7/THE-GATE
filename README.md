@@ -9,6 +9,7 @@
  + Une interface histoire (placant le contexte du jeu) :
  <img src="readme_assets/page_2.PNG"  width="500" height="500">
  + Un système de classes avec de multiple stats à suivre :
+ + <p></p>
    <p>On utilise les touche directionelle du clavier pour naviguer entre les différente classe + la souris pour naviguer entre les différents type de stats + W du clavier  pour valider le choix sur la classe selectionner par le selecteur. </p>
  
  ![](https://github.com/Hounnankan7/THE-GATE/blob/main/readme_assets/page_3_gif.gif)

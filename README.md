@@ -4,10 +4,13 @@
  # Systèmes Implémentés
 
  + Une page d'acceuil d'où débute le jeu :
- 
+ <img src="readme_assets/page_1.PNG"  width="500" height="500">
  + Une interface histoire (placant le contexte du jeu) :
+ <img src="readme_assets/page_2.PNG"  width="500" height="500">
  + Un système de classes avec de multiple stats à suivre :
-
+ <img src="readme_assets/page_3_gif.mp4"  width="500" height="500">
+ ![](https://github.com/Hounnankan7/THE-GATE/blob/main/readme_assets/page_3_gif.mp4)
+ 
  # Systèmes à Implémentés
  
  + Une interface principale pour la gestion de tous le jeu :

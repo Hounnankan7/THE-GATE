@@ -4,6 +4,7 @@
  # Systèmes Implémentés
 
  + Une page d'acceuil d'où débute le jeu :
+ 
  + Une interface histoire (placant le contexte du jeu) :
  + Un système de classes avec de multiple stats à suivre :
 
@@ -16,3 +17,4 @@
  + Un système de boutique :
  + Un système de sauvegarde de partie :
  + Un système de combat au tour par tour :
+ + Base de donnée de monstres / items / classes / skills :

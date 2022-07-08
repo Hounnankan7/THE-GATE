@@ -3,6 +3,7 @@
     require "settings"
     anim8 = require "libraries/anim8"
     require "scripts/all_interface"
+    require "scripts/player"
     
 
 --LES VARIABLES------------------------------------------------------------------------------
@@ -18,6 +19,8 @@
 
         choix_UI = 1
         
+        character_choice = 1
+        PlayerCreation(character_choice)
 
         interface_init()
 
@@ -26,10 +29,12 @@
     function love.update(dt) --Fonction LOve2D en execution tout le temps
 
         cursor.animation:update(dt)
-        cursor_character.animation:update(dt)
         cursor_Movement_UI_Principal()
+
+        cursor_character.animation:update(dt)
         cursor_Movement_CharacterSelection(choix_UI)
         characterSelection_UI_Update()
+
         choix_UI = manipulationInterface(choix_UI,dt)
         
         
@@ -49,7 +54,7 @@
             draw_CharacterSelection()
             cursor_character.animation:draw(cursor_character.spritesheet, cursor_character.x, cursor_character.y)
         elseif choix_UI == 5 then
-
+            
         elseif choix_UI == 6 then
 
         elseif choix_UI == 7 then

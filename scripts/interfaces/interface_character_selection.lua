@@ -49,7 +49,29 @@
 
     function characterSelection_UI_Update()
       
+        PlayerCreation(character_choice)
 
+        ui_class.image = player.fight_image
+        ui_class.class_name = "CLASS : "..player.class_name
+
+        --Fight Stats
+        ui_class.health_point = "HP : "..player.health
+        ui_class.magic_point = "MP : "..player.mana
+        ui_class.strength = "Strength : "..player.strength
+        ui_class.intelligence = "Intelligence : "..player.intelligence
+        ui_class.defense_physique = "Defense Physique : "..player.def_physic
+        ui_class.defense_magic = "Defense Magic : "..player.def_magic
+        ui_class.dexterity = "Dexterity : "..player.dexterity
+        ui_class.speed = "Speed : "..player.speed
+
+        --Craft Stats
+        ui_class.mixing = "Mixing : "..player.mixing
+        ui_class.cooking = "Cooking : "..player.cooking
+        ui_class.smithing = "Smithing : "..player.smithing
+        ui_class.writting = "Writing : "..player.writing
+        ui_class.foraging = "Foraging : "..player.foraging
+        ui_class.weaving = "Weaving : "..player.weaving
+        ui_class.gathering = "Gathering : "..player.gathering
 
     end
 
@@ -79,6 +101,7 @@
 
         if love.keyboard.isDown("w") then
 
+            PlayerCreation(player.id)
             interface_choice = 5
             delay_s(0.2)
 
@@ -131,6 +154,7 @@
             
             -- 1ere case ligne 1
             if cursor_character.x == 28*tileSize and cursor_character.y == 13.29*tileSize then
+                character_choice = 1
                 if love.keyboard.isDown("down") then
                     cursor_character.x = 28*tileSize
                     cursor_character.y = 18.3*tileSize
@@ -143,6 +167,7 @@
 
             -- 2eme case ligne 1  
             elseif cursor_character.x == 38*tileSize and cursor_character.y == 13.29*tileSize then
+                character_choice = 2
                 if love.keyboard.isDown("down") then
                     cursor_character.x = 38*tileSize
                     cursor_character.y = 18.3*tileSize
@@ -158,6 +183,7 @@
                 end
             -- 3eme case ligne 1  
             elseif cursor_character.x == 48*tileSize and cursor_character.y == 13.29*tileSize then
+                character_choice = 3
                 if love.keyboard.isDown("down") then
                     cursor_character.x = 48*tileSize
                     cursor_character.y = 18.3*tileSize
@@ -170,6 +196,7 @@
 
             -- 1ere case ligne 2  
             elseif cursor_character.x == 28*tileSize and cursor_character.y == 18.3*tileSize then
+                character_choice = 4
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 28*tileSize
                     cursor_character.y = 13.29*tileSize
@@ -186,6 +213,7 @@
 
             -- 2eme case ligne 2  
             elseif cursor_character.x == 38*tileSize and cursor_character.y == 18.3*tileSize then
+                character_choice = 5
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 38*tileSize
                     cursor_character.y = 13.29*tileSize
@@ -206,6 +234,7 @@
 
             -- 3eme case ligne 2  
              elseif cursor_character.x == 48*tileSize and cursor_character.y == 18.3*tileSize then
+                character_choice = 6
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 48*tileSize
                     cursor_character.y = 13.29*tileSize
@@ -222,6 +251,7 @@
 
             -- 1ere case ligne 3
             elseif cursor_character.x == 28*tileSize and cursor_character.y == 23.3*tileSize then
+                character_choice = 7
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 28*tileSize
                     cursor_character.y = 18.3*tileSize
@@ -238,6 +268,7 @@
 
             -- 2eme case ligne 3
             elseif cursor_character.x == 38*tileSize and cursor_character.y == 23.3*tileSize then
+                character_choice = 8
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 38*tileSize
                     cursor_character.y = 18.3*tileSize
@@ -258,6 +289,7 @@
 
             -- 3eme case ligne 3
             elseif cursor_character.x == 48*tileSize and cursor_character.y == 23.3*tileSize then
+                character_choice = 9
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 48*tileSize
                     cursor_character.y = 18.3*tileSize
@@ -274,6 +306,7 @@
 
             -- 1ere case ligne 4  
             elseif cursor_character.x == 28*tileSize and cursor_character.y == 33*tileSize then
+                character_choice = 10
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 28*tileSize
                     cursor_character.y = 23.3*tileSize
@@ -290,6 +323,7 @@
 
             -- 2eme case ligne 4  
             elseif cursor_character.x == 38*tileSize and cursor_character.y == 33*tileSize then
+                character_choice = 11
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 38*tileSize
                     cursor_character.y = 23.3*tileSize
@@ -306,6 +340,7 @@
 
             -- 2eme case ligne 4  
             elseif cursor_character.x == 48*tileSize and cursor_character.y == 33*tileSize then
+                character_choice = 12
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 48*tileSize
                     cursor_character.y = 23.3*tileSize
@@ -318,6 +353,7 @@
 
             -- 1ere case ligne 5  
             elseif cursor_character.x == 28*tileSize and cursor_character.y == 38*tileSize then
+                character_choice = 13
                 if love.keyboard.isDown("up") then
                     cursor_character.x = 28*tileSize
                     cursor_character.y = 33*tileSize

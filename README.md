@@ -1,5 +1,6 @@
 # THE_GATE
- Game prototype of a action/turn-based game i would like to develop with tmy own assets. It is developped in Lua and LOVE 2D framework for the script and the interface has been made using the software Paint from Windows OS.
+
+ Prototype d'un jeu du style Action/Turn-based que j'aimerais développer avect mes propres ressources graphiques. Il est réalisé grâce au langage Lua et la framework Love2D pour le codage et le logiciel Paint de Windows pour les interfaces.
  
  # Systèmes Implémentés
 

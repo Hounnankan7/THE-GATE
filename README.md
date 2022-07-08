@@ -4,6 +4,7 @@
  # Systèmes Implémentés
 
  + Une page d'acceuil d'où débute le jeu :
+ ![Screenshot](readme_assets/page_1.PNG)
  
  + Une interface histoire (placant le contexte du jeu) :
  + Un système de classes avec de multiple stats à suivre :

@@ -3,5 +3,16 @@
  
  # Systèmes Implémentés
 
+ + Une page d'acceuil d'où débute le jeu :
+ + Une interface histoire (placant le contexte du jeu) :
+ + Un système de classes avec de multiple stats à suivre :
 
  # Systèmes à Implémentés
+ 
+ + Une interface principale pour la gestion de tous le jeu :
+ + Un système de crafting basé sur des stats :
+ + Un système d'inventaire catégorisé :
+ + Une interface de suivi de profil :
+ + Un système de boutique :
+ + Un système de sauvegarde de partie :
+ + Un système de combat au tour par tour :

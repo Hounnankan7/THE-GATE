@@ -2,7 +2,7 @@
 
 function love.conf(fenetre)
     --Config graphic de la fenetre
-        fenetre.window.title = "THE GATE: New Era"
+        fenetre.window.title = "THE GATES: New Era"
         fenetre.window.icon = "assets/icons/game_icon.png"
         fenetre.window.width = 1024
         fenetre.window.height = 768

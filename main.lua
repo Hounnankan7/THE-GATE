@@ -53,8 +53,8 @@
         elseif choix_UI == 4 then
             draw_CharacterSelection()
             cursor_character.animation:draw(cursor_character.spritesheet, cursor_character.x, cursor_character.y)
-        elseif choix_UI == 5 then
-            
+        elseif choix_UI == 5 then -- In Game interface
+            draw_inGame()
         elseif choix_UI == 6 then
 
         elseif choix_UI == 7 then

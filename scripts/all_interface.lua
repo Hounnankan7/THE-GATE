@@ -5,6 +5,7 @@
     require "scripts/interfaces/loading"
     require "scripts/interfaces/interface_history"
     require "scripts/interfaces/interface_character_selection"
+    require "scripts/interfaces/interface_inGame"
 
     require "scripts/interfaces/interface_credit"
    
@@ -24,6 +25,7 @@
         loading_Init()
         history_Init()
         characterSelection_Init()
+        inGame_Init()
 
     end
 

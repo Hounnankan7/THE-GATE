@@ -398,4 +398,8 @@ function PlayerCreation(choix_character) --Fonction creation du perso du player
 
 end
 
+function drawPlayer() -- Dessin du joueur
+    
+end
+
 ---------------------------------------------------------------------------------------------
